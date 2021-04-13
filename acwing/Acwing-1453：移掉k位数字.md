@@ -1,3 +1,15 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 # Acwing-1453：移掉k位数字
 
 [原题链接](https://www.acwing.com/problem/content/1455/)
@@ -86,6 +98,7 @@ int main() {
     
     // 初始化为"0"，可避免字符串为空情况发生
     string res = "0";
+    
     // 字符串非单调上升
     for(auto c : num) {
         while(k && c < res.back()) {
@@ -94,11 +107,14 @@ int main() {
         }
         res += c;
     }
+    
     // 字符串单调上升
     while(k --) res.pop_back();
-    k = 0;
+    
     // 去除前导0
+    k = 0;
     while(k + 1 < res.size() && res[k] == '0')  k ++;
+    
     cout << res.substr(k) << endl;
     
     return 0;
