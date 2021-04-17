@@ -9,4 +9,4 @@
 
 ## Trie
 
-* [前缀统计](https://github.com/mio-1/ALGO-Notes/blob/master/acwing/Acwing-1453%EF%BC%9A%E7%A7%BB%E6%8E%89k%E4%BD%8D%E6%95%B0%E5%AD%97.md)
+* [前缀统计](https://github.com/mio-1/ALGO-Notes/blob/master/acwing/Acwing-142%EF%BC%9A%E5%89%8D%E7%BC%80%E7%BB%9F%E8%AE%A1.md)

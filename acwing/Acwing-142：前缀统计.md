@@ -4,7 +4,7 @@
 
 ## 题目描述
 
-给定 *N* 个字符串![](https://latex.codecogs.com/svg.image?S_1,S_2...S_N)，接下来进行 *M* 次询问，每次询问给定一个字符串 *T*，求 ![](https://latex.codecogs.com/svg.image?S_1-S_N)中有多少个字符串是 *T* 的前缀。
+给定 *N* 个字符串 ![](https://latex.codecogs.com/svg.image?S_1,S_2...S_N)，接下来进行 *M* 次询问，每次询问给定一个字符串 *T*，求 ![](https://latex.codecogs.com/svg.image?S_1-S_N) 中有多少个字符串是 *T* 的前缀。
 
 输入字符串的总长度不超过 ![](https://latex.codecogs.com/svg.image?10^{6})，仅包含小写字母。
 
@@ -44,7 +44,7 @@ efg
 
 ## 解题思路
 
-**核心：**Trie树的简单应用
+**核心:**  Trie树的简单应用
 
 存储 -- 与Trie树一致
 
