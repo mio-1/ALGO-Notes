@@ -12,6 +12,16 @@
 
 
 
+**示例 1：**
+
+```
+输入：nums = [3,1,4,2]
+输出：true
+解释：序列中有 1 个 132 模式的子序列： [1, 4, 2] 。
+```
+
+
+
 ## 解题思路
 
 从后往前遍历，利用**单调栈**，并使用  <font color='maroon'>`right` </font> 记录 满足要求 （ <font color='maroon'>`i < j && nums[i] > nums[j]` </font>）的**最大**的 <font color='maroon'>`nums[j]` </font>
