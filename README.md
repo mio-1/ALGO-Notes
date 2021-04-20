@@ -17,4 +17,9 @@
 
 ## 数学知识
 
-* [0到n-1中缺失的数字]() （高斯求和公式）
+* [0到n-1中缺失的数字](https://github.com/mio-1/ALGO-Notes/blob/master/acwing/Acwing-68%EF%BC%9A0%E5%88%B0n-1%E4%B8%AD%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B0%E5%AD%97.md) （高斯求和公式）
+
+## 位运算
+
+* [不用加减乘除做加法]() （位运算、模拟）
+* [位1的个数]() （位运算、lowbit）
