@@ -21,5 +21,13 @@
 
 ## 位运算
 
-* [不用加减乘除做加法]() （位运算、模拟）
-* [位1的个数]() （位运算、lowbit）
+* [不用加减乘除做加法](https://github.com/mio-1/ALGO-Notes/blob/master/acwing/Acwing-85%EF%BC%9A%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95.md) （位运算、模拟）
+* [位1的个数](https://github.com/mio-1/ALGO-Notes/blob/master/leetcode/Leetcode-191%EF%BC%9A%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md) （位运算、lowbit）
+
+## 动态规划
+
+* [跳台阶]() （动态规划）
+
+## 链表
+
+* [合并两个排序的链表]() （链表、二路归并）
